@@ -12,3 +12,8 @@ class Solution(object):
                 if nums[i]+nums[j]==target:
                     return (i,j)
 # @lc code=end
+
+# update: 2023-08-05
+# 1. 语法不熟练
+# 2. len()函数的作用，等于nums.size()，数组元素数量
+# 3. 这个结构，可以不用判断 i != j ，但是复杂度还是很大。
