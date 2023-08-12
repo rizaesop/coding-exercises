@@ -6,7 +6,7 @@
 
 # @lc code=start
 class Solution:
-    def isPalindrome(self, x: int) -> bool:
+    def isPalindrome(self, x):
         if x < 0:
             return False
         temp = x
